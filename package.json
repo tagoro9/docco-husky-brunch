@@ -1,0 +1,30 @@
+{
+  "name": "docco-husky-brunch",
+  "version": "0.0.1",
+  "description": "Brunch plugin to run docco-husky",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vivictormora/docco-husky-brunch.git"
+  },
+  "keywords": [
+    "brunch",
+    "docco-husky"
+  ],
+  "author": "Victor Mora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivictormora/docco-husky-brunch/issues"
+  },
+  "homepage": "https://github.com/vivictormora/docco-husky-brunch",
+  "dependencies": {
+    "coffee-script": "1.7.1",
+    "docco-husky": "https://github.com/vivictormora/docco-husky/tarball/master"
+  },
+  "scripts": {
+      "postinstall": "node setup.js postinstall"
+    }
+}
