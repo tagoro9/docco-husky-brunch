@@ -7,7 +7,7 @@ module.exports = class DoccoRunner
 
 	constructor: (@config) ->
 
-	onCompile: (generatedFiles) ->
+	optimize: (params, callback) ->
 		# Determine the platform the script is run
 		windows = process.platform is 'win32'
 		if windows is on then SLASH = "\\" else SLASH = "/"		
